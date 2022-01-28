@@ -19,7 +19,7 @@ export default function TextForm(props) {
     setText("");
   };
   let modeStyle = {
-    backgroundColor: props.mode === "light" ? "white" : "black",
+    backgroundColor: props.mode === "light" ? "white" : "#262447",
     color: props.mode === "dark" ? "white" : "black",
   };
   return (
